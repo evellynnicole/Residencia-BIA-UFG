@@ -34,7 +34,7 @@ def get_vectordb(embeddings, sparse_embeddings, url, collection_name: str, docs)
         print(f"Coleção '{collection_name}' não encontrada. Criando uma nova...")
         qdrant = QdrantVectorStore.from_documents(
             docs,
-            embedding=embeddings,  # Correção aqui
+            embedding=embeddings,  
             sparse_embedding=sparse_embeddings,
             url=url,
             prefer_grpc=True,
