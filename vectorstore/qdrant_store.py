@@ -10,10 +10,9 @@ def create_embeddings():
 
 def get_vectordb(embeddings, sparse_embeddings, url, collection_name: str, docs):
     try:
-        # Tenta carregar a coleção existente
         qdrant = QdrantVectorStore.from_existing_collection(
             collection_name=collection_name,
-            embedding=embeddings,  # Correção aqui
+            embedding=embeddings, 
             sparse_embedding=sparse_embeddings,
             url=url,
             prefer_grpc=True,
