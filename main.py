@@ -1,4 +1,3 @@
-# main.py
 from config.settings import settings
 from vectorstore.qdrant_store import create_embeddings, get_vectordb
 from retriever.retriever import get_retrievers
