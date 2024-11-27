@@ -16,6 +16,7 @@ Este projeto tem como objetivo desenvolver um chatbot conversacional focado em f
 O projeto utiliza técnicas modernas de Inteligência Artificial para oferecer uma experiência conversacional baseada em dados reais do campeonato.
 
 - Text-to-SQL com RAG (Retrieval-Augmented Generation):
+
   Foi utilizado RAG para recuperar informações como documentação, exemplos de consultas SQL e esquemas de banco de dados. A partir desses dados, o modelo é capaz de construir consultas SQL que respondem às perguntas do usuário, desde que a informação esteja armazenada no banco de dados.
 
 - Tecnologias empregadas:
